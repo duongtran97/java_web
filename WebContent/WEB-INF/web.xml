@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>15_tranvanduong_manage_user</display-name>
+	<session-config>
+	<session-timeout>5</session-timeout>
+	</session-config>
+	<welcome-file-list>
+		<welcome-file>/VIEW/jsp/ADM001.jsp</welcome-file>
+		<welcome-file>/VIEW/jsp/ADM002.jsp</welcome-file>
+		<welcome-file>/VIEW/jsp/ADM003.jsp</welcome-file>
+		<welcome-file>/VIEW/jsp/ADM004.jsp</welcome-file>
+		<welcome-file>/VIEW/jsp/ADM005.jsp</welcome-file>
+		<welcome-file>/VIEW/jsp/ADM006.jsp</welcome-file>
+		<welcome-file>/VIEW/jsp/header.jsp</welcome-file>
+		<welcome-file>/VIEW/jsp/footer.jsp</welcome-file>
+
+	</welcome-file-list>
+</web-app>
